@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PureGlow — Gizlilik Politikası</title>
+<meta name="description" content="PureGlow, cilt bakım rutinini takip etmene yardımcı olan bir uygulamadır. Bu metin hangi verileri topladığımızı, nerede tuttuğumuzu ve nasıl silebilec">
+<style>
+  :root { color-scheme: light; --bg:#FFF7F1; --card:#fff; --text:#171B17; --muted:#6B7269; --green:#3F7A52; --line:#F0E7D9; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 72px; }
+  .brand { font-size:13px; letter-spacing:2px; text-transform:uppercase; color:var(--green); font-weight:700; }
+  h1 { font-size: clamp(28px, 5vw, 38px); line-height:1.2; letter-spacing:-.7px; margin:8px 0 4px; }
+  .updated { color:var(--muted); font-size:14px; margin:0 0 28px; }
+  .intro { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:20px 22px; margin:0 0 32px; }
+  h2 { font-size:20px; letter-spacing:-.3px; margin:34px 0 10px; }
+  p { margin:0 0 12px; }
+  ul { margin:0 0 14px; padding-left:22px; }
+  li { margin-bottom:6px; }
+  a { color:var(--green); }
+  footer { margin-top:48px; padding-top:20px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+  <main>
+    <div class="brand">PureGlow</div>
+    <h1>Gizlilik Politikası</h1>
+    <p class="updated">Güncelleme: 8 Ekim 2026</p>
+    <div class="intro">PureGlow, cilt bakım rutinini takip etmene yardımcı olan bir uygulamadır. Bu metin hangi verileri topladığımızı, nerede tuttuğumuzu ve nasıl silebileceğini anlatır. Uygulamanın gerçek davranışını tarif eder; genel bir şablon değildir.</div>
+
+    <h2>Hesabınla birlikte sunucuda tutulanlar</h2>
+    <p>Hesap oluşturduğunda aşağıdaki veriler bulut altyapımızda (Supabase) hesabına bağlı olarak saklanır. Her kayıt yalnızca o kullanıcı tarafından okunabilecek şekilde satır bazlı güvenlikle korunur.</p>
+    <ul>
+      <li>E-posta adresin ve şifrenin güvenli özeti (giriş için).</li>
+      <li>Adın ve varsa yüklediğin profil fotoğrafın.</li>
+      <li>Cilt profili sorularına verdiğin yanıtlar: cilt tipi, bakım hedefi, endişeler, kaçınmak istediğin içerikler, yaş aralığı, hamilelik bilgisi.</li>
+      <li>Favorilere eklediğin ürünler.</li>
+      <li>Taradığın ürünlerin listesi ve son tarama zamanları.</li>
+    </ul>
+
+    <h2>Yalnızca cihazında kalanlar</h2>
+    <p>Aşağıdaki veriler sunucuya hiç gönderilmez; cihazının yerel deposunda durur. Uygulamayı silersen bu veriler de silinir ve başka bir cihazda görünmez.</p>
+    <ul>
+      <li>Bakım rutinin, adımları ve günlük tamamlanma kayıtların.</li>
+      <li>Rozetlerin, kilometre taşların ve serilerin.</li>
+      <li>Rafındaki ürünler, açılış tarihleri ve kullanım süreleri.</li>
+      <li>Cilt günlüğü kayıtların ve notların.</li>
+      <li>Tanıttığın barkod–ürün eşleşmeleri.</li>
+      <li>Hatırlatma saatleri ve bildirim okundu işaretleri.</li>
+    </ul>
+
+    <h2>Cilt analizi fotoğrafı</h2>
+    <p>Cilt analizi için çektiğin fotoğraf cihazından çıkmaz. Analiz cihaz üzerinde yapılır; sunucuya yalnızca analizin sonuçları ve fotoğrafın cihazındaki dosya yolu kaydedilir. Bu dosya yolu başka bir cihazdan anlamsızdır ve fotoğrafa erişim sağlamaz.</p>
+    <p>Profil fotoğrafı farklıdır: onu sen yüklediğinde bulut depolamaya kaydedilir ve yalnızca senin erişebileceğin bir klasörde tutulur.</p>
+
+    <h2>Kamera ve bildirim izinleri</h2>
+    <p>Kamera izni yalnızca sen barkod taramak ya da cilt analizi fotoğrafı çekmek istediğinde kullanılır. Arka planda kamera açılmaz.</p>
+    <p>Bildirim izni yalnızca kendi kurduğun rutin hatırlatmaları için kullanılır. Bu hatırlatmalar cihazında planlanır; pazarlama bildirimi göndermiyoruz.</p>
+
+    <h2>Verilerini paylaşmıyoruz</h2>
+    <p>Kişisel verilerini satmıyoruz ve reklam amacıyla üçüncü taraflarla paylaşmıyoruz. Uygulamada reklam ağı, analitik izleyici veya sosyal medya takip kodu bulunmuyor.</p>
+    <p>Veriler yalnızca hizmeti çalıştırmak için kullandığımız altyapı sağlayıcısında (Supabase) işlenir.</p>
+
+    <h2>Verilerin nerede işleniyor</h2>
+    <p>Hesabınla birlikte sunucuda tutulan veriler, altyapı sağlayıcımız Supabase’in Frankfurt (Almanya, eu-central-1) bölgesindeki sunucularında saklanır ve işlenir. Yani veriler Türkiye dışında, Avrupa Birliği içinde tutulur.</p>
+    <p>Bu, KVKK bakımından yurt dışına aktarım sayılır. Uygulamayı kullanarak verilerinin bu bölgede işlendiğini bilerek kabul etmiş olursun. Yalnızca cihazında kalan kayıtlar (rutinin, rafın, günlüğün, hatırlatmaların) hiçbir zaman telefonundan çıkmaz.</p>
+
+    <h2>Verilerini silme hakkın</h2>
+    <p>Uygulama içinden Profil → Hesabı Yönet → Hesabımı sil adımlarıyla hesabını ve tüm verilerini kalıcı olarak silebilirsin. Silme işlemi profil kaydını, favorilerini, tarama geçmişini, profil fotoğrafını, bu cihazdaki yerel kayıtlarını ve giriş hesabını kapsar. İşlem geri alınamaz.</p>
+    <p>Dilersen rainconsultancy777@gmail.com adresine yazarak da silme talebinde bulunabilirsin.</p>
+
+    <h2>Veri sorumlusu ve iletişim</h2>
+    <p>Bu uygulamadaki verilerin sorumlusu Yağmur Altuğ. Gizlilikle ilgili her soru için rainconsultancy777@gmail.com adresine yazabilirsin.</p>
+    <p>Bu politika Türkiye Cumhuriyeti mevzuatına tabidir.</p>
+
+    <h2>Değişiklikler</h2>
+    <p>Bu politikayı güncellediğimizde uygulama içindeki bu sayfayı ve yukarıdaki güncelleme tarihini değiştiririz. Önemli bir değişiklik olursa uygulama içinde bilgilendiririz.</p>
+
+    <footer>
+      <p>İletişim: <a href="mailto:rainconsultancy777@gmail.com">rainconsultancy777@gmail.com</a></p>
+      <p><a href="./terms.html">Kullanım Koşulları</a></p>
+    </footer>
+  </main>
+</body>
+</html>
